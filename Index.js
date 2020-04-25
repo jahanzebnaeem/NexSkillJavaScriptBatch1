@@ -64,32 +64,139 @@
 // // 3) Display the sliced text
 // alert(displayChars);
 
-function getMilk() { 
-    console.log("Step out");
-    console.log("Turn right");
-    console.log("Move");
-    console.log("Move");
-    console.log("Move");
-    console.log("Move");
-    console.log("Ture left");
-    console.log("Move");
-    console.log("Move");
-    console.log("Move");
-    console.log("Move");
-    console.log("Buy milk");
-    console.log("Turn right");
-    console.log("Move");
-    console.log("Move");
-    console.log("Move");
-    console.log("Move");
-    console.log("Ture left");
-    console.log("Move");
-    console.log("Move");
-    console.log("Move");
-    console.log("Move");
-    console.log("Place milk");
-}
+// function getMilk() { 
+//     console.log("Step out");
+//     console.log("Turn right");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Ture left");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Buy milk");
+//     console.log("Turn right");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Ture left");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Place milk");
+// }
 
-getMilk();
+// getMilk();
 
 // Q5, Q6 and Q7 as discussed in the class. Submit to jahanzeb.naeem@hotmail.com by April 24, 2020. 
+
+// function dogAgeCalculator() {
+//     var dogAge = prompt("Enter your dog age.", 3);
+//     var humanAge = ((dogAge - 2)* 4)+ 21;
+//     console.log("Your dog's age equivalent to a human age: " + humanAge);
+// }
+
+// dogAgeCalculator();
+
+// function getMilk(boxOfMilk) { 
+//     console.log("Step out");
+//     console.log("Turn right");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Ture left");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Buy " + boxOfMilk + " box of milk");
+//     console.log("Turn right");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Ture left");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Place milk");
+// }
+
+// getMilk(2);
+
+// function getMilk(amount) { 
+//     console.log("Step out");
+//     console.log("Turn right");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Ture left");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     var boxOfMilk = Math.floor(amount/110);
+//     var remainingAmount = amount%110;
+//     console.log("Buy " + boxOfMilk + " box of milk.");
+//     console.log("Turn right");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Ture left");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Move");
+//     console.log("Place milk");
+//     return remainingAmount;
+// }
+
+// var changeAmount = getMilk(200);
+// console.log("Your remaining amount is :" + changeAmount);
+
+// function getMilk(amount, packPrice = 110) { 
+//     console.log("Step out");
+//     console.log("Turn right");
+//     console.log("Move");
+//     console.log("Ture left");
+//     console.log("Move");
+//     var boxOfMilk = Math.floor(amount/packPrice);
+//     var remainingAmount = amount%packPrice;
+//     console.log("Buy " + boxOfMilk + " box of milk.");
+//     console.log("Turn right");
+//     console.log("Move");
+//     console.log("Ture left");
+//     console.log("Move");
+//     console.log("Place milk");
+//     return remainingAmount;
+// }
+
+// var changeAmount = getMilk(200, 120);
+// console.log("Your remaining amount is :" + changeAmount);
+
+var a = 2;
+var c = 2;
+var b = "2";
+var d = "2";
+
+// if(a===b) {
+//     console.log("They are equal");
+// } else {
+//     console.log("They are not equal");
+// }
+
+if(a!==c || b===d){
+    console.log("They are equal")
+} else if (a===b) {
+    console.log("They are not equal")
+} else {
+    console.log("They are all not equal")
+}
